@@ -318,7 +318,7 @@ footer a {
   </main>
   <!-- Rodapé -->
   <footer>
-    <p>A você, visitante, nosso mais sincero agradecimento por embarcar nesta jornada fascinante sobre o Espectro. Sua curiosidade e dedicação nos motivam a continuar explorando os mistérios deste universo tão único. Esperamos que cada secção lida tenha despertado sua imaginação e lhe oferecido momentos de reflexão e inspiração.</p>
+    <p>A você, visitante, nosso mais sincero agradecimento por embarcar nesta jornada fascinante sobre Telethra. Sua curiosidade e dedicação nos motivam a continuar explorando os mistérios deste universo tão único. Esperamos que cada secção lida tenha despertado sua imaginação e lhe oferecido momentos de reflexão e inspiração.</p>
     <a href="#">Bóris</a>
     <p>© 2025 Universo Zônflux. Todos os direitos reservados.</p>
   </footer>
