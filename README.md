@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
@@ -82,7 +82,7 @@ header {
 
 /* Seções */
 .sect1 {
-    background-image: url('/721a8c97-be80-4991-af70-084a8ee73475.jpeg');
+    background-image: url('721a8c97-be80-4991-af70-084a8ee73475.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
@@ -118,14 +118,14 @@ header {
 /* secção 3*/
 .poesia-texto {
   width: 48%;
-  background: url('/513fd248-8d5b-4f3b-961b-c849b2b10927.jpeg');
+  background: url('513fd248-8d5b-4f3b-961b-c849b2b10927.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .poesia-imagem {
   width: 48%;
-  background: url('/68c708e1-b972-429c-8057-27af71f10ec5.jpeg');
+  background: url('68c708e1-b972-429c-8057-27af71f10ec5.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -134,7 +134,7 @@ header {
   width: 50%;
   font-size: 25px;
   text-align: center;
-  background: url('/8440efa9-7f3c-433f-b4d6-d5d8e383e941.jpeg');
+  background: url('8440efa9-7f3c-433f-b4d6-d5d8e383e941.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -146,13 +146,13 @@ header {
 }
 /* secção 9*/
 .sect9 {
-  background-image: url('/75f95493-157e-46cd-b986-ead2a0e8d3fd.jpeg');
+  background-image: url('75f95493-157e-46cd-b986-ead2a0e8d3fd.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .planeta-imagem {
   width: 48%;
-  background-image: url('/dd0f70e4-5bb6-450e-beb6-8da5b6208765.jpeg');
+  background-image: url('dd0f70e4-5bb6-450e-beb6-8da5b6208765.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -166,7 +166,7 @@ header {
   padding: 20px;
   text-shadow: 4px 4px 1px #000000;
   text-align: center;
-  background: url('/a6035d6e-b3be-46c2-b71e-7c828fdd70e2.jpeg');
+  background: url('a6035d6e-b3be-46c2-b71e-7c828fdd70e2.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -243,7 +243,7 @@ footer a {
   <!-- Cabeçalho -->
   <header>
     <div>
-      <img class="logo" src="/playlistCropperBoomPlayer.jpg">
+      <img class="logo" src="playlistCropperBoomPlayer.jpg">
     </div>
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
   </header>
@@ -279,7 +279,7 @@ footer a {
       </div>
     </section>
     <section class="sect5">
-      <img id="curioso" src="/ac78d3d5-7845-4707-b64a-817dceebc347.jpeg" alt="Imagem da Região">
+      <img id="curioso" src="ac78d3d5-7845-4707-b64a-817dceebc347.jpeg" alt="Imagem da Região">
       <p>Você sabia que a Zônflux não é apenas a base de energia em Telethra, mas também um elemento vivo que reage de forma única às emoções humanas? Alguns dizem que a Zônflux tem uma ligação direta com os segredos mais profundos do universo, podendo até mesmo revelar as origens do tempo e do espaço. Quer saber mais sobre como essa energia molda não apenas os habitantes, mas todo o equilíbrio do cosmos? Então continue conosco nesta jornada!</p>
     </section>
     <section class="sect6">
@@ -291,10 +291,10 @@ footer a {
       <a href="#">Astroflux</a>
     </section>
     <section class="sect8">
-      <img src="/01b44592-7292-4fe0-991a-b6df6f8dee01.jpeg" alt="Imagem 1">
-      <img src="/bc9f03cb-c7dd-4058-849d-4d44b0e470ec.jpeg" alt="Imagem 2">
-      <img src="/f6d35bc3-7523-4ef5-b770-7ac554160fd2.jpeg" alt="Imagem 3">
-      <img src="/5fabed52-a7e4-41eb-a9f3-79fa91ecc429.jpeg" alt="Imagem 4">
+      <img src="01b44592-7292-4fe0-991a-b6df6f8dee01.jpeg" alt="Imagem 1">
+      <img src="bc9f03cb-c7dd-4058-849d-4d44b0e470ec.jpeg" alt="Imagem 2">
+      <img src="f6d35bc3-7523-4ef5-b770-7ac554160fd2.jpeg" alt="Imagem 3">
+      <img src="5fabed52-a7e4-41eb-a9f3-79fa91ecc429.jpeg" alt="Imagem 4">
     </section>
     <section class="sect9">
       <p>Telethra, embora seja o continente mais avançado tecnologicamente do universo, enfrenta um grande desafio: a ausência de recursos naturais. No passado, seus antepassados exploraram de forma descontrolada os recursos não renováveis do território, levando ao esgotamento total. Atualmente, para sustentar sua sociedade e economia, Telethra depende da extração legal de recursos dos planetas vizinhos, com os quais mantém acordos diplomáticos e comerciais rigorosos.<br /><br />Esse histórico motivou os habitantes de Telethra a buscarem alternativas inovadoras, desenvolvendo tecnologias que priorizam a eficiência e o respeito pela natureza. Um exemplo brilhante dessa mentalidade é o WochWork (em português, "Relógio de Trabalho"), um dispositivo multifuncional que integra as funções de telemóvel, computador, TV, cartão de crédito e caderno em um único aparelho compacto e sustentável.<br /><br />Além disso, os habitantes de Telethra aboliram o uso de papel, em um esforço para proteger as árvores e preservar o equilíbrio ecológico. Essa postura reflete a filosofia do continente: aprender com os erros do passado para construir um futuro harmonioso entre tecnologia, sustentabilidade e respeito ao meio ambiente.</p>
