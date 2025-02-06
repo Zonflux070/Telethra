@@ -1,0 +1,58 @@
+alert('Usa o Modo Desktop')
+
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    if (menu.style.left === "0px") {
+        menu.style.left = "-60%";
+        document.removeEventListener("click", closeMenuOnClickOutside);
+    } else {
+        menu.style.left = "0px";
+        setTimeout(() => {
+            document.addEventListener("click", closeMenuOnClickOutside);
+        }, 100);
+    }
+}
+
+function closeMenuOnClickOutside(event) {
+    const menu = document.getElementById('menu');
+    const menuIcon = document.querySelector(".menu-icon");
+
+    if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+        menu.style.left = "-60%";
+        document.removeEventListener("click", closeMenuOnClickOutside);
+    }
+}
+
+document.getElementById("formulario").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let nome = document.getElementById("nome").value;
+    let email = document.getElementById("email").value;
+    let data = document.getElementById("data").value;
+    let contato = document.getElementById("contato").value;
+    let mensagem = document.getElementById("mensagem").value;
+
+    if (nome && email && data && contato && mensagem) {
+        let dados = {
+            nome,
+            email,
+            data,
+            contato,
+            mensagem
+        };
+
+        // Armazena os dados no LocalStorage
+        localStorage.setItem("formularioTelethra", JSON.stringify(dados));
+
+        document.getElementById("mensagem-sucesso").innerText = "Agradecemos pelo seu feedback";
+        document.getElementById("mensagem-sucesso").style.display = "block";
+
+        setTimeout(() => {
+            document.getElementById("mensagem-sucesso").style.display = "none";
+        }, 3000);
+
+        document.getElementById("formulario").reset();
+    } else {
+        alert("Preencha todos os campos!");
+    }
+});

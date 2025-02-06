@@ -1,0 +1,232 @@
+/* Estilos Globais */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header, main, section {
+  width: 100%;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #199319;
+    margin: 0px;
+    padding: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFFFFFB8;
+  border-radius: 30%;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Menu de Navegação */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -60%;
+    width: 60%;
+    height: 100%;
+    background-color: #23AF00A1;
+    transition: 0.3s;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #FBFBFF;
+}
+
+.close-menu {
+    background: none;
+    border: none;
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+/* Seções */
+.sect1 {
+    background-image: url('/721a8c97-be80-4991-af70-084a8ee73475.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.sect1 h1 {
+  font-size: 30px;
+  color: #00FF00;
+}
+
+.sect1 a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: 1px solid #FFFFFF;
+  padding: 1px 60px 1px 60px;
+}
+
+.sect2 {
+  text-align: center;
+}
+
+.sect2 h2 {
+  font-size: 15px;
+}
+/* secções 3, 4, 5 e 9*/
+.sect3, .sect4, .sect9 {
+    display: flex;
+    justify-content: space-between;
+}
+/* secção 3*/
+.poesia-texto {
+  width: 48%;
+  background: url('/513fd248-8d5b-4f3b-961b-c849b2b10927.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.poesia-imagem {
+  width: 48%;
+  background: url('/68c708e1-b972-429c-8057-27af71f10ec5.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* secção 4*/
+.slogan {
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+  background: url('/8440efa9-7f3c-433f-b4d6-d5d8e383e941.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* secção 5*/
+#curioso {
+  width: 200px;
+  height: 400px;
+  margin: 20px 1px 1px 20px;
+}
+/* secção 9*/
+.sect9 {
+  background-image: url('/75f95493-157e-46cd-b986-ead2a0e8d3fd.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.planeta-imagem {
+  width: 48%;
+  background-image: url('/dd0f70e4-5bb6-450e-beb6-8da5b6208765.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sect9 p {
+  text-align: justify;
+  text-shadow: 4px 4px 2px #000000;
+}
+/* secção 6*/
+.sect6 {
+  margin: 0px;
+  padding: 20px;
+  text-shadow: 4px 4px 1px #000000;
+  text-align: center;
+  background: url('/a6035d6e-b3be-46c2-b71e-7c828fdd70e2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.sect6 a {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+/* secção 7*/
+.sect7 a {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+/* secção 8*/
+.sect8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+}
+
+.sect8 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem-sucesso {
+  display: none;
+  color: #FFFFFF;
+  font-size: 25px;
+  padding: 25px;
+  border: 1px solid #FFFFFF;
+  background-color: #54C25482;
+}
+
+.input-duplo {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+/* Rodapé */
+footer {
+    font-size: 10px;
+    font-family: monospace;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+footer a {
+  font-size: 10px;
+  color: #FBFBFF;
+}
